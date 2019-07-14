@@ -221,6 +221,144 @@
     semver "^5.3.0"
     semver-intersect "^1.1.2"
 
+"@syncfusion/ej2-angular-base@~16.4.55":
+  version "16.4.55"
+  resolved "https://registry.yarnpkg.com/@syncfusion/ej2-angular-base/-/ej2-angular-base-16.4.55.tgz#242c0b89fa37a122f9273ce62a34c231560fa795"
+  dependencies:
+    "@syncfusion/ej2-base" "~16.4.52"
+    core-js "^2.4.1"
+    reflect-metadata "^0.1.9"
+    rxjs "^5.0.0"
+    zone.js "0.7.2 - 0.8.28"
+
+"@syncfusion/ej2-angular-grids@^16.3.34":
+  version "16.4.55"
+  resolved "https://registry.yarnpkg.com/@syncfusion/ej2-angular-grids/-/ej2-angular-grids-16.4.55.tgz#d51fb855dfc1caf2faae507521234bc1405d89b0"
+  dependencies:
+    "@syncfusion/ej2-angular-base" "~16.4.55"
+    "@syncfusion/ej2-base" "~16.4.52"
+    "@syncfusion/ej2-grids" "16.4.55"
+
+"@syncfusion/ej2-base@~16.4.52":
+  version "16.4.52"
+  resolved "https://registry.yarnpkg.com/@syncfusion/ej2-base/-/ej2-base-16.4.52.tgz#d81992c2cefa2f29e06c6b10908c053ac11e1137"
+
+"@syncfusion/ej2-buttons@~16.4.52", "@syncfusion/ej2-buttons@~16.4.53", "@syncfusion/ej2-buttons@~16.4.55":
+  version "16.4.55"
+  resolved "https://registry.yarnpkg.com/@syncfusion/ej2-buttons/-/ej2-buttons-16.4.55.tgz#8206a91a835c4a2ba3fc537769e5efd0f4e8ee3d"
+  dependencies:
+    "@syncfusion/ej2-base" "~16.4.52"
+
+"@syncfusion/ej2-calendars@~16.4.55":
+  version "16.4.55"
+  resolved "https://registry.yarnpkg.com/@syncfusion/ej2-calendars/-/ej2-calendars-16.4.55.tgz#8412bad883db9bd1c0f4ef2658ff0bdacac45026"
+  dependencies:
+    "@syncfusion/ej2-base" "~16.4.52"
+    "@syncfusion/ej2-buttons" "~16.4.55"
+    "@syncfusion/ej2-inputs" "~16.4.55"
+    "@syncfusion/ej2-lists" "~16.4.52"
+    "@syncfusion/ej2-popups" "~16.4.54"
+
+"@syncfusion/ej2-compression@~16.4.52":
+  version "16.4.52"
+  resolved "https://registry.yarnpkg.com/@syncfusion/ej2-compression/-/ej2-compression-16.4.52.tgz#8970d4f7c28ad22a771e2ef311bed02ed3116557"
+  dependencies:
+    "@syncfusion/ej2-file-utils" "~16.4.52"
+
+"@syncfusion/ej2-data@~16.4.52":
+  version "16.4.52"
+  resolved "https://registry.yarnpkg.com/@syncfusion/ej2-data/-/ej2-data-16.4.52.tgz#6d3c0de3c78f24fa44a35e1a2e504ffdc49004dc"
+  dependencies:
+    "@syncfusion/ej2-base" "~16.4.52"
+
+"@syncfusion/ej2-dropdowns@~16.4.55":
+  version "16.4.55"
+  resolved "https://registry.yarnpkg.com/@syncfusion/ej2-dropdowns/-/ej2-dropdowns-16.4.55.tgz#73e2f6c4c4a97f39dabc363d832524f29a73dcd6"
+  dependencies:
+    "@syncfusion/ej2-base" "~16.4.52"
+    "@syncfusion/ej2-data" "~16.4.52"
+    "@syncfusion/ej2-inputs" "~16.4.55"
+    "@syncfusion/ej2-lists" "~16.4.52"
+    "@syncfusion/ej2-popups" "~16.4.54"
+
+"@syncfusion/ej2-excel-export@~16.4.52":
+  version "16.4.52"
+  resolved "https://registry.yarnpkg.com/@syncfusion/ej2-excel-export/-/ej2-excel-export-16.4.52.tgz#e8a8dc21e880d93904ca6f9656ba0fb2dedfa102"
+  dependencies:
+    "@syncfusion/ej2-base" "~16.4.52"
+    "@syncfusion/ej2-compression" "~16.4.52"
+
+"@syncfusion/ej2-file-utils@~16.4.52":
+  version "16.4.52"
+  resolved "https://registry.yarnpkg.com/@syncfusion/ej2-file-utils/-/ej2-file-utils-16.4.52.tgz#534192047b18302bc591f04701a2033839434782"
+
+"@syncfusion/ej2-grids@16.4.55":
+  version "16.4.55"
+  resolved "https://registry.yarnpkg.com/@syncfusion/ej2-grids/-/ej2-grids-16.4.55.tgz#62223584591288dcf8cb4f8da5fcdcd8c23f85d9"
+  dependencies:
+    "@syncfusion/ej2-base" "~16.4.52"
+    "@syncfusion/ej2-buttons" "~16.4.55"
+    "@syncfusion/ej2-calendars" "~16.4.55"
+    "@syncfusion/ej2-compression" "~16.4.52"
+    "@syncfusion/ej2-data" "~16.4.52"
+    "@syncfusion/ej2-dropdowns" "~16.4.55"
+    "@syncfusion/ej2-excel-export" "~16.4.52"
+    "@syncfusion/ej2-file-utils" "~16.4.52"
+    "@syncfusion/ej2-inputs" "~16.4.55"
+    "@syncfusion/ej2-lists" "~16.4.52"
+    "@syncfusion/ej2-navigations" "~16.4.54"
+    "@syncfusion/ej2-pdf-export" "~16.4.52"
+    "@syncfusion/ej2-popups" "~16.4.54"
+    "@syncfusion/ej2-splitbuttons" "~16.4.53"
+
+"@syncfusion/ej2-inputs@~16.4.54", "@syncfusion/ej2-inputs@~16.4.55":
+  version "16.4.55"
+  resolved "https://registry.yarnpkg.com/@syncfusion/ej2-inputs/-/ej2-inputs-16.4.55.tgz#c50dc77422c13c6026f0e5011914e5c79496046e"
+  dependencies:
+    "@syncfusion/ej2-base" "~16.4.52"
+    "@syncfusion/ej2-buttons" "~16.4.55"
+    "@syncfusion/ej2-popups" "~16.4.54"
+    "@syncfusion/ej2-splitbuttons" "~16.4.53"
+
+"@syncfusion/ej2-lists@~16.4.52":
+  version "16.4.52"
+  resolved "https://registry.yarnpkg.com/@syncfusion/ej2-lists/-/ej2-lists-16.4.52.tgz#f826087c968ff1fb0b6ce3e50a3303cca2e2d9ec"
+  dependencies:
+    "@syncfusion/ej2-base" "~16.4.52"
+    "@syncfusion/ej2-buttons" "~16.4.52"
+    "@syncfusion/ej2-data" "~16.4.52"
+
+"@syncfusion/ej2-navigations@~16.4.54":
+  version "16.4.54"
+  resolved "https://registry.yarnpkg.com/@syncfusion/ej2-navigations/-/ej2-navigations-16.4.54.tgz#968d42897e9233f54779b72e53f8dcdd9928b332"
+  dependencies:
+    "@syncfusion/ej2-base" "~16.4.52"
+    "@syncfusion/ej2-buttons" "~16.4.53"
+    "@syncfusion/ej2-data" "~16.4.52"
+    "@syncfusion/ej2-inputs" "~16.4.54"
+    "@syncfusion/ej2-lists" "~16.4.52"
+    "@syncfusion/ej2-popups" "~16.4.54"
+
+"@syncfusion/ej2-pdf-export@~16.4.52":
+  version "16.4.52"
+  resolved "https://registry.yarnpkg.com/@syncfusion/ej2-pdf-export/-/ej2-pdf-export-16.4.52.tgz#219206736cee42b2b82b2e41415289c48f0824c6"
+  dependencies:
+    "@syncfusion/ej2-compression" "~16.4.52"
+
+"@syncfusion/ej2-popups@~16.4.53", "@syncfusion/ej2-popups@~16.4.54":
+  version "16.4.54"
+  resolved "https://registry.yarnpkg.com/@syncfusion/ej2-popups/-/ej2-popups-16.4.54.tgz#ee523bf8f7856104bb745bfc462e0f717809b3d2"
+  dependencies:
+    "@syncfusion/ej2-base" "~16.4.52"
+    "@syncfusion/ej2-buttons" "~16.4.53"
+
+"@syncfusion/ej2-splitbuttons@~16.4.53":
+  version "16.4.53"
+  resolved "https://registry.yarnpkg.com/@syncfusion/ej2-splitbuttons/-/ej2-splitbuttons-16.4.53.tgz#3385bec1d6217e0e6adf5cb56610f17bf8973a0c"
+  dependencies:
+    "@syncfusion/ej2-base" "~16.4.52"
+    "@syncfusion/ej2-popups" "~16.4.53"
+
 "@types/node@^8.0.30":
   version "8.10.25"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-8.10.25.tgz#801fe4e39372cef18f268db880a5fbfcf71adc7e"
@@ -2999,8 +3137,8 @@ lodash.tail@^4.1.1:
   resolved "https://registry.yarnpkg.com/lodash.tail/-/lodash.tail-4.1.1.tgz#d2333a36d9e7717c8ad2f7cacafec7c32b444664"
 
 lodash@^4.0.0, lodash@^4.17.3, lodash@^4.17.4, lodash@^4.17.5, lodash@~4.17.10:
-  version "4.17.10"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.10.tgz#1b7793cf7259ea38fb3661d4d38b3260af8ae4e7"
+  version "4.17.14"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.14.tgz#9ce487ae66c96254fe20b599f21b6816028078ba"
 
 log-symbols@^2.1.0:
   version "2.2.0"
@@ -4149,6 +4287,10 @@ reflect-metadata@^0.1.10, reflect-metadata@^0.1.2:
   version "0.1.12"
   resolved "https://registry.yarnpkg.com/reflect-metadata/-/reflect-metadata-0.1.12.tgz#311bf0c6b63cd782f228a81abe146a2bfa9c56f2"
 
+reflect-metadata@^0.1.9:
+  version "0.1.13"
+  resolved "https://registry.yarnpkg.com/reflect-metadata/-/reflect-metadata-0.1.13.tgz#67ae3ca57c972a2aa1642b10fe363fe32d49dc08"
+
 regenerate@^1.2.1:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/regenerate/-/regenerate-1.4.0.tgz#4a856ec4b56e4077c557589cae85e7a4c8869a11"
@@ -4342,6 +4484,12 @@ run-queue@^1.0.0, run-queue@^1.0.3:
   resolved "https://registry.yarnpkg.com/run-queue/-/run-queue-1.0.3.tgz#e848396f057d223f24386924618e25694161ec47"
   dependencies:
     aproba "^1.1.1"
+
+rxjs@^5.0.0:
+  version "5.5.12"
+  resolved "https://registry.yarnpkg.com/rxjs/-/rxjs-5.5.12.tgz#6fa61b8a77c3d793dbaf270bee2f43f652d741cc"
+  dependencies:
+    symbol-observable "1.0.1"
 
 rxjs@^6.0.0, rxjs@^6.2.2:
   version "6.2.2"
@@ -4915,6 +5063,10 @@ supports-color@^5.1.0, supports-color@^5.3.0, supports-color@^5.4.0:
   resolved "https://registry.yarnpkg.com/supports-color/-/supports-color-5.4.0.tgz#1c6b337402c2137605efe19f10fec390f6faab54"
   dependencies:
     has-flag "^3.0.0"
+
+symbol-observable@1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/symbol-observable/-/symbol-observable-1.0.1.tgz#8340fc4702c3122df5d22288f88283f513d3fdd4"
 
 symbol-observable@^1.2.0:
   version "1.2.0"
@@ -5605,6 +5757,10 @@ yargs@~3.10.0:
     cliui "^2.1.0"
     decamelize "^1.0.0"
     window-size "0.1.0"
+
+"zone.js@0.7.2 - 0.8.28":
+  version "0.8.28"
+  resolved "https://registry.yarnpkg.com/zone.js/-/zone.js-0.8.28.tgz#fd55df8743514b233613f8e4f5bb8e27207a48c3"
 
 zone.js@^0.8.26:
   version "0.8.26"
