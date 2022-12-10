@@ -46,7 +46,7 @@
     "@nguniversal/module-map-ngfactory-loader": "^6.0.0",
     "@syncfusion/ej2-angular-grids": "^16.3.34",
     "core-js": "^2.4.1",
-    "express": "^4.15.2",
+    "express": "^4.17.3",
     "reflect-metadata": "^0.1.10",
     "rxjs": "^6.2.2",
     "zone.js": "^0.8.26"
